@@ -12,26 +12,32 @@ h2 {
     font-family: "Ubuntu";
     font-size: 2.0em;
 }
+
 /* Navebar */
-.container-fluid a img{
+.container-fluid a img {
     width: 70px;
 }
-#navbarNavDropdown{
-  display: flex;
-  justify-content: center;
+
+#navbarNavDropdown {
+    display: flex;
+    justify-content: center;
 }
-.navbar-nav li{
+
+.navbar-nav li {
     margin: 0px 15px;
 }
-.navbar-nav li a{
+
+.navbar-nav li a {
     font-size: 1em;
     font-weight: 500;
     color: black;
 }
-.purchase-icon i{
+
+.purchase-icon i {
     margin-right: 30px;
     font-size: 1.3em;
 }
+
 /* #navbarNavDropdown{
     margin-left: 150px;
 } */
@@ -256,13 +262,12 @@ h2 {
 /* Footer */
 .footer {
     width: 100%;
-    height: 350px;
+    height: 370px;
     background-color: #f2f2f2;
     background-color: #feffff;
     display: flex;
     justify-content: space-around;
     padding: 20px 0px;
-    box-shadow: -1px 5px 10px 0px rgba(0, 0, 0, 0.904);
 }
 
 .footer-width {
@@ -337,15 +342,16 @@ h2 {
 #instagram {
     color: #E103B8;
 }
-
+@media only screen and (max-width:1000px){
+    .purchase-icon {
+        display: none;
+    }
+    .container-fluid a img {
+        display: none;
+    }
+}
 /* For Mobile */
 @media only screen and (max-width:767px) {
-    .purchase-icon{
-        display: none;
-     }
-    .container-fluid a img{
-       display: none;
-    }
     .banner {
         margin: 0px;
         padding: 0px;
@@ -382,10 +388,6 @@ h2 {
         width: 90%;
         font-size: 1em;
         padding: 10px 0px;
-    }
-
-    .section-1 {
-        margin: 20px;
     }
 
     .boxes {
@@ -432,7 +434,7 @@ h2 {
 
     .section-3-content {
         width: 100%;
-        height: 100%;
+        height: 420px;
         flex-wrap: wrap;
 
     }
@@ -448,6 +450,10 @@ h2 {
 
     .watch-content h2 {
         font-size: 2em;
+    }
+
+    .watch-content a {
+        margin: 0px;
     }
 
     .footer {
@@ -476,10 +482,12 @@ h2 {
 
     .useful-links {
         padding-left: 15px;
+
     }
 
     .social-media {
-        padding-left: 20px;
+        padding-left: 15px;
+        margin-top: 10px;
     }
 
     .social-media h4 {
@@ -493,12 +501,6 @@ h2 {
 
 /* For Ipad and Tablet */
 @media only screen and (min-width:768px) and (max-width:1023px) {
-    .container-fluid a img{
-     display: none;
-    }
-    .purchase-icon{
-       display: none;
-    }
     .banner {
         width: 100%;
         height: 520px;

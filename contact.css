@@ -6,46 +6,34 @@
 
 body {
     font-family: "Ubuntu";
+
 }
 
-/* * Navebar */
-.navebar {
-    width: 100%;
-    height: 80px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-.nav-width {
-    width: 30%;
-}
-
-.logo-nav a img {
+/* Navebar */
+.container-fluid a img {
     width: 70px;
 }
 
-.tabs a {
-    margin-left: 30px;
-    text-decoration: none;
-    color: black;
-    font-size: 1.2em;
+#navbarNavDropdown {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-nav li {
+    margin: 0px 15px;
+}
+
+.navbar-nav li a {
+    font-size: 1em;
     font-weight: 500;
-}
-
-.increase-width {
-    width: 40%;
-}
-
-.decrease-width {
-    width: 20%;
-}
-
-.purchase-icon i{
-    margin-left: 30px;
-    font-size: 1.5em;
     color: black;
 }
+
+.purchase-icon i {
+    margin-right: 30px;
+    font-size: 1.3em;
+}
+
 /* Banner */
 .banner {
     width: 100%;
@@ -54,38 +42,317 @@ body {
     background-size: cover;
     background-position: center;
 }
-.form-social-media{
+
+.form-social-media {
+    padding-top: 30px;
     width: 100%;
-    height: 500px;
-    background-color: aquamarine;
+    height: 570px;
     display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #f4f4f4;
 }
-.social-media{
-    width: 50%;
-    background-color: antiquewhite;
+
+.social-media {
+    width: 30%;
     height: 300px;
-}
-.contact-form{
-    width: 50%;
-}
-.contact-form h3{
-    font-size: 2em;
-}
-form{
-    width: 70%;
     display: flex;
     flex-direction: column;
 }
-label{
+
+.social-media h2 {
+    padding-left: 20px;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    margin: 30px 0px;
+}
+
+.links a {
+    text-decoration: none;
+}
+
+.links i {
+    font-size: 3em;
+    padding: 20px;
+    background-color: #A0E1E9;
+    border-radius: 30%;
+    margin-right: 30px;
+    color: black;
+    transition: all .3s linear;
+}
+
+.links i:hover {
+    transform: scale(1.1);
+    background-color: #25d4eb;
+}
+
+.links span {
+    font-size: 1.3em;
+    color: black;
+    font-weight: 500;
+}
+
+.contact-form {
+    width: 50%;
+}
+
+.contact-form h3 {
+    font-size: 2em;
+}
+
+form {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    background-color: #A0E1E9;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+label {
+    font-size: 1.3em;
+    margin-top: 10px;
+}
+
+form input {
+    height: 35px;
+    margin-top: 5px;
+    border: none;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 4px;
+    padding-left: 10px;
+}
+
+.submit-button {
+    margin-top: 20px;
+    outline: none;
+    background-color: #fdffff;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    transition: all .3s linear;
+}
+
+.submit-button:hover {
+    transform: translateY(-5px);
+    background-color: rgb(228, 100, 9);
+}
+
+.map iframe {
+    width: 100%;
+    height: 300px;
+}
+
+/* Footer */
+.footer {
+    margin-top: 50px;
+    width: 100%;
+    height: 350px;
+    background-color: #f2f2f2;
+    background-color: #feffff;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0px;
+}
+
+.footer-width {
+    width: 20%;
+}
+
+.logo {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-around;
+}
+
+.logo a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+}
+
+.logo a i {
+    transform: translatex(-10px);
+    color: #37cdcd;
+}
+
+.logo a img {
+    width: 100px;
+    height: 100px;
+}
+
+.useful-links {
+    display: flex;
+    flex-direction: column;
+}
+
+.useful-links h4 {
     font-size: 1.5em;
-    margin-top: 20px;
+    margin-bottom: 20px;
 }
-form input{
-height: 40px;
-margin-top: 5px;
-border: none;
-outline: none;
+
+.useful-links a {
+    text-decoration: none;
+    font-size: 1.2em;
+    margin: 10px 0px;
+    color: black;
+
 }
-.submit-button{
-    margin-top: 20px;
+
+.social-media h4 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.social-media i {
+    font-size: 2.5em;
+    padding: 10px 20px;
+}
+
+.top-margin {
+    margin-top: 50px;
+}
+
+#facebook {
+    color: #0866FF;
+}
+
+#linkedin {
+    color: #0A66C2;
+}
+
+#instagram {
+    color: #E103
+}
+
+@media only screen and (max-width:1000px) {
+    .purchase-icon {
+        display: none;
+    }
+
+    .container-fluid a img {
+        display: none;
+    }
+}
+
+/* For Mobile */
+@media only screen and (max-width:767px) {
+    .form-social-media {
+        width: 100%;
+        height: 100%;
+        flex-wrap: wrap;
+    }
+
+    .social-media {
+        width: 100%;
+        height: 100%;
+        align-items: center;
+    }
+
+    .social-media h2 {
+        padding: 0px;
+    }
+
+    .contact-form {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+    .map {
+        margin-top: 20px;
+    }
+
+    .footer {
+        flex-wrap: wrap;
+        width: 100%;
+        height: 350px;
+    }
+
+    .footer-width {
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    .logo a {
+        padding-left: 15px;
+    }
+
+    .logo a i {
+        transform: translatex(0px);
+    }
+
+    .logo span {
+        padding-left: 15px;
+        font-size: 1em;
+    }
+
+    .useful-links {
+        padding-left: 15px;
+
+    }
+
+    .social-media {
+        padding-left: 15px;
+        margin-top: 10px;
+    }
+
+    .social-media h4 {
+        text-align: left;
+    }
+
+    .social-media a i {
+        padding-left: 10px;
+    }
+
+}
+
+/* For Ipad and Tablets*/
+@media only screen and (min-width:768px) and (max-width:1023px) {
+    .form-social-media {
+        width: 100%;
+        height: 100%;
+        justify-content: space-around;
+
+    }
+
+    .contact-form {
+        width: 70%;
+    }
+
+    .social-media {
+        width: 30%;
+    }
+
+    /* Footer */
+    .footer {
+        width: 100%;
+        height: 350px;
+    }
+
+    .logo {
+        width: 35%;
+    }
+
+    .logo span {
+        font-size: 0.8em;
+    }
+
+    .social-media i {
+        font-size: 2em;
+        padding: 0px;
+        padding: 0px 10px;
+    }
 }

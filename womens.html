@@ -1,11 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Womens</title>
-    <link rel="stylesheet" href="womens.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="womens.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -19,274 +24,340 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-  
-</head>
-<body>
-  <!-- Navebar -->
-  <div class="navebar">
-    <!-- Logo -->
-    <div class="logo-nav nav-width ">
-      <a href="./index.html"><img src="./images/Logo (1).png" alt=""></a>
-    </div>
-    <!-- Tabs -->
-     <div class="tabs nav-width increase-width">
-      <a href="./index.html">Home</a>
-      <a href="./mens.css">Men's</a>
-      <a href="./womens.html">Women's</a>
-      <a href="contact.html">Contact</a>
-     </div>
-     <div class="purchase-icon nav-width decrease-width">
-      <i class="fa-solid fa-user"></i>
-      <i class="fa-solid fa-cart-shopping"></i>
-      <i class="fa-solid fa-magnifying-glass"></i>
-     </div>
-   </div>
+  </head>
+  <body>
+    <!-- NaveBar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img src="./images/Logo (1).png" alt="logo"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./mens.html">Men's</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./womens.html">Women's</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Category
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="index.html#section-1-link"
+                    >Tshirt & Shoes</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#section-link"
+                    >Women Sendals</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="womens.html#section-1-link"
+                    >HandBags</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="purchase-icon">
+          <i class="fa-solid fa-user"></i>
+          <i class="fa-solid fa-cart-shopping"></i>
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+      </div>
+    </nav>
     <!-- Banner -->
     <div class="banner">
-        <div class="banner-content">
-          <h2>Best Female Collection Arrived</h2>
-        </div>
+      <div class="banner-content">
+        <h2>Best Female Collection Arrived</h2>
       </div>
-      <!-- Section 01 -->
-      <div class="section-1" id="section-1-link">
-        <h2>HandBags</h2>
-        <!-- Boxes Parent -->
-        <div class="boxes">
-          <!-- Box-1 -->
-          <div class="box box-1">
-            <div class="box-content">
-              <img src="./images/handbags01.jpg" alt="" />
-              <h4>Travel Satchel Handbag</h4>
-              <!-- Prices -->
-              <span class="before"><del>Rs. 750</del></span>
-              <span class="after">Rs. 650</span>
-              <!-- Stars -->
-              <div class="stars">
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-              </div>
-              <!-- Button -->
-              <div class="card-button">
-                <a href="#">
-                  <i class="fa-solid fa-cart-shopping"></i>
-                  Buy Now</a
-                >
-              </div>
+    </div>
+    <!-- Section 01 -->
+    <div class="section-1" id="section-1-link">
+      <h2>HandBags</h2>
+      <!-- Boxes Parent -->
+      <div class="boxes">
+        <!-- Box-1 -->
+        <div class="box box-1">
+          <div class="box-content">
+            <img src="./images/handbags01.jpg" alt="" />
+            <h4>Travel Satchel Handbag</h4>
+            <!-- Prices -->
+            <span class="before"><del>Rs. 750</del></span>
+            <span class="after">Rs. 650</span>
+            <!-- Stars -->
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
             </div>
-          </div>
-          <!-- Box-2 -->
-          <div class="box box-2">
-            <div class="box-content">
-              <img src="./images/handbags02.jpg" alt="" />
-              <h4>Bag for Work</h4>
-              <!-- Prices -->
-              <span class="before"><del>Rs. 749</del></span>
-              <span class="after">Rs. 649</span>
-              <!-- Stars -->
-              <div class="stars">
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-regular fa-star"></i>
-                <i class="fa-regular fa-star"></i>
-              </div>
-              <!-- Button -->
-              <div class="card-button">
-                <a href="#">
-                  <i class="fa-solid fa-cart-shopping"></i>
-                  Buy Now</a
-                >
-              </div>
-            </div>
-          </div>
-          <!-- Box-3 -->
-          <div class="box box-3">
-            <div class="box-content">
-              <img src="./images/handbags03.jpg" alt="" />
-              <h4>Leather Handbags</h4>
-              <!-- Prices -->
-              <span class="before"><del>Rs. 5999</del></span>
-              <span class="after">Rs. 4999</span>
-              <!-- Stars -->
-              <div class="stars">
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-              </div>
-              <!-- Button -->
-              <div class="card-button">
-                <a href="#">
-                  <i class="fa-solid fa-cart-shopping"></i>
-                  Buy Now</a
-                >
-              </div>
-            </div>
-          </div>
-          <!-- Box-4 -->
-          <div class="box box-4">
-            <div class="box-content">
-              <img src="./images/handbags04.jpg" alt="" />
-              <h4>West Crossbody Bags</h4>
-              <!-- Prices -->
-              <span class="before"><del>Rs. 750</del></span>
-              <span class="after">Rs. 650</span>
-              <!-- Stars -->
-              <div class="stars">
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-regular fa-star"></i>
-              </div>
-              <!-- Button -->
-              <div class="card-button">
-                <a href="#">
-                  <i class="fa-solid fa-cart-shopping"></i>
-                  Buy Now</a
-                >
-              </div>
+            <!-- Button -->
+            <div class="card-button">
+              <a href="#">
+                <i class="fa-solid fa-cart-shopping"></i>
+                Buy Now</a
+              >
             </div>
           </div>
         </div>
-      </div>
-      <!-- Section 02 -->
-      <div class="section-1 section-2" >
-        <h2>Womens Wedge Sandals</h2>
-        <!-- Boxes Parent -->
-        <div class="boxes">
-          <!-- Box-1 -->
-          <div class="box box-1.1">
-            <div class="box-content">
-              <img src="./images/flat-sandals01.jpg" alt="" />
-              <h4>AirPods 4th Gen (2024)</h4>
-              <!-- Prices -->
-              <span class="before"><del>Rs. 1499</del></span>
-              <span class="after">Rs. 1299</span>
-              <!-- Stars -->
-              <div class="stars">
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-regular fa-star"></i>
-                <i class="fa-regular fa-star"></i>
-                <i class="fa-regular fa-star"></i>
-              </div>
-              <!-- Button -->
-              <div class="card-button">
-                <a href="#">
-                  <i class="fa-solid fa-cart-shopping"></i>
-                  Buy Now</a
-                >
-              </div>
+        <!-- Box-2 -->
+        <div class="box box-2">
+          <div class="box-content">
+            <img src="./images/handbags02.jpg" alt="" />
+            <h4>Bag for Work</h4>
+            <!-- Prices -->
+            <span class="before"><del>Rs. 749</del></span>
+            <span class="after">Rs. 649</span>
+            <!-- Stars -->
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <!-- Button -->
+            <div class="card-button">
+              <a href="#">
+                <i class="fa-solid fa-cart-shopping"></i>
+                Buy Now</a
+              >
             </div>
           </div>
-          <!-- Box-2 -->
-          <div class="box box-2.2">
-            <div class="box-content">
-              <img src="./images/flat-sandals02.jpg" alt="" />
-              <h4>Womens Flat Sandals</h4>
-              <!-- Prices -->
-              <span class="before"><del>Rs. 899</del></span>
-              <span class="after">Rs. 650</span>
-              <!-- Stars -->
-              <div class="stars">
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-regular fa-star"></i>
-                <i class="fa-regular fa-star"></i>
-              </div>
-              <!-- Button -->
-              <div class="card-button">
-                <a href="#">
-                  <i class="fa-solid fa-cart-shopping"></i>
-                  Buy Now</a
-                >
-              </div>
+        </div>
+        <!-- Box-3 -->
+        <div class="box box-3">
+          <div class="box-content">
+            <img src="./images/handbags03.jpg" alt="" />
+            <h4>Leather Handbags</h4>
+            <!-- Prices -->
+            <span class="before"><del>Rs. 5999</del></span>
+            <span class="after">Rs. 4999</span>
+            <!-- Stars -->
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <!-- Button -->
+            <div class="card-button">
+              <a href="#">
+                <i class="fa-solid fa-cart-shopping"></i>
+                Buy Now</a
+              >
             </div>
           </div>
-          <!-- Box-3 -->
-          <div class="box box-3.3">
-            <div class="box-content">
-              <img src="./images/flat-sandals03.jpg" alt="" />
-              <h4>Littleplum Womens Sandals</h4>
-              <!-- Prices -->
-              <span class="before"><del>Rs. 1250</del></span>
-              <span class="after">Rs. 1049</span>
-              <!-- Stars -->
-              <div class="stars">
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-              </div>
-              <!-- Button -->
-              <div class="card-button">
-                <a href="#">
-                  <i class="fa-solid fa-cart-shopping"></i>
-                  Buy Now</a
-                >
-              </div>
+        </div>
+        <!-- Box-4 -->
+        <div class="box box-4">
+          <div class="box-content">
+            <img src="./images/handbags04.jpg" alt="" />
+            <h4>West Crossbody Bags</h4>
+            <!-- Prices -->
+            <span class="before"><del>Rs. 750</del></span>
+            <span class="after">Rs. 650</span>
+            <!-- Stars -->
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
             </div>
-          </div>
-          <!-- Box-4 -->
-          <div class="box box-4.4">
-            <div class="box-content">
-              <img src="./images/flat-sandals04.jpg" alt="" />
-              <h4>Two Bands Lug sole</h4>
-              <!-- Prices -->
-              <span class="before"><del>Rs. 999</del></span>
-              <span class="after">Rs. 899</span>
-              <!-- Stars -->
-              <div class="stars">
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-regular fa-star"></i>
-                <i class="fa-regular fa-star"></i>
-              </div>
-              <!-- Button -->
-              <div class="card-button">
-                <a href="#">
-                  <i class="fa-solid fa-cart-shopping"></i>
-                  Buy Now</a
-                >
-              </div>
+            <!-- Button -->
+            <div class="card-button">
+              <a href="#">
+                <i class="fa-solid fa-cart-shopping"></i>
+                Buy Now</a
+              >
             </div>
           </div>
         </div>
       </div>
-      <!-- Footer -->
+    </div>
+    <!-- Section 02 -->
+    <div class="section-1 section-2" id="section-link">
+      <h2>Womens Wedge Sandals</h2>
+      <!-- Boxes Parent -->
+      <div class="boxes">
+        <!-- Box-1 -->
+        <div class="box box-1.1">
+          <div class="box-content">
+            <img src="./images/flat-sandals01.jpg" alt="" />
+            <h4>AirPods 4th Gen (2024)</h4>
+            <!-- Prices -->
+            <span class="before"><del>Rs. 1499</del></span>
+            <span class="after">Rs. 1299</span>
+            <!-- Stars -->
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <!-- Button -->
+            <div class="card-button">
+              <a href="#">
+                <i class="fa-solid fa-cart-shopping"></i>
+                Buy Now</a
+              >
+            </div>
+          </div>
+        </div>
+        <!-- Box-2 -->
+        <div class="box box-2.2">
+          <div class="box-content">
+            <img src="./images/flat-sandals02.jpg" alt="" />
+            <h4>Womens Flat Sandals</h4>
+            <!-- Prices -->
+            <span class="before"><del>Rs. 899</del></span>
+            <span class="after">Rs. 650</span>
+            <!-- Stars -->
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <!-- Button -->
+            <div class="card-button">
+              <a href="#">
+                <i class="fa-solid fa-cart-shopping"></i>
+                Buy Now</a
+              >
+            </div>
+          </div>
+        </div>
+        <!-- Box-3 -->
+        <div class="box box-3.3">
+          <div class="box-content">
+            <img src="./images/flat-sandals03.jpg" alt="" />
+            <h4>Littleplum Womens Sandals</h4>
+            <!-- Prices -->
+            <span class="before"><del>Rs. 1250</del></span>
+            <span class="after">Rs. 1049</span>
+            <!-- Stars -->
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <!-- Button -->
+            <div class="card-button">
+              <a href="#">
+                <i class="fa-solid fa-cart-shopping"></i>
+                Buy Now</a
+              >
+            </div>
+          </div>
+        </div>
+        <!-- Box-4 -->
+        <div class="box box-4.4">
+          <div class="box-content">
+            <img src="./images/flat-sandals04.jpg" alt="" />
+            <h4>Two Bands Lug sole</h4>
+            <!-- Prices -->
+            <span class="before"><del>Rs. 999</del></span>
+            <span class="after">Rs. 899</span>
+            <!-- Stars -->
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <!-- Button -->
+            <div class="card-button">
+              <a href="#">
+                <i class="fa-solid fa-cart-shopping"></i>
+                Buy Now</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer -->
     <div class="footer">
-        <div class="logo footer-width">
-          <a href=""><img src="./images/Logo (1).png" alt="Logo" /></a>
-          <a href="https://maps.app.goo.gl/9yXbwnaiwCvKTxm26"
-            ><i class="fa-solid fa-location-pin"></i><span>Afghan Colony tube well chock peshawar</span></a
-          >
-          <a href="tel:03139991571"><i class="fa-solid fa-phone"></i><span>0313-999-1571</span></a>
-          <a href="mailto:faisalhayat1021@gmail.com"><i class="fa-solid fa-envelope"></i><span>faisalhayat1021@gmail.com</span></a>
-        </div>
-        <div class="useful-links footer-width top-margin">
-          <h4>Useful links</h4>
-          <a href="index.html#section-1-link">Tshirt & Shoes</a>
-          <a href="index.html#section-2-link">Electronics</a>
-          <a href="index.html#section-3-link">Apple Watch</a>
-          <a href="mens.html#section01-link">Men Tshirt</a>
-          <a href="womens.css#section-1-link">HandBags</a>
-        </div>
-        <div class="social-media footer-width top-margin">
-          <h4>Social Media</h4>
-          <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook" id="facebook" ></i></a>
-          <a href="https://www.linkedin.com/in/faisal-hayat-423aba2a9/"><i class="fa-brands fa-linkedin" id="linkedin" ></i></a>
-          <a href="https://www.instagram.com/"><i class="fa-brands fa-square-instagram" id="instagram"></i></a>
-        </div>
+      <div class="logo footer-width">
+        <a href=""><img src="./images/Logo (1).png" alt="Logo" /></a>
+        <a href="https://maps.app.goo.gl/9yXbwnaiwCvKTxm26"
+          ><i class="fa-solid fa-location-pin"></i
+          ><span>Afghan Colony tube well chock peshawar</span></a
+        >
+        <a href="tel:03139991571"
+          ><i class="fa-solid fa-phone"></i><span>0313-999-1571</span></a
+        >
+        <a href="mailto:faisalhayat1021@gmail.com"
+          ><i class="fa-solid fa-envelope"></i
+          ><span>faisalhayat1021@gmail.com</span></a
+        >
       </div>
-      <!-- Script-->
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-</body>
+      <div class="useful-links footer-width top-margin">
+        <h4>Useful links</h4>
+        <a href="index.html#section-1-link">Tshirt & Shoes</a>
+        <a href="index.html#section-2-link">Electronics</a>
+        <a href="index.html#section-3-link">Apple Watch</a>
+        <a href="mens.html#section01-link">Men Tshirt</a>
+        <a href="womens.css#section-1-link">HandBags</a>
+      </div>
+      <div class="social-media footer-width top-margin">
+        <h4>Social Media</h4>
+        <a href="https://www.facebook.com/"
+          ><i class="fa-brands fa-facebook" id="facebook"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/faisal-hayat-423aba2a9/"
+          ><i class="fa-brands fa-linkedin" id="linkedin"></i
+        ></a>
+        <a href="https://www.instagram.com/"
+          ><i class="fa-brands fa-square-instagram" id="instagram"></i
+        ></a>
+      </div>
+    </div>
+    <!-- Script-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
